@@ -27,15 +27,13 @@
 <body>
 
 <div class="container">
-    <a href="form.html">zum Formular test (Alert erscheint sofort)</a>
-
+    <a href="index.html">zur Startseite (Alert erscheint nur bei einer Eingabe)</a>
     <form class="form-signin">
-        <h2 class="form-signin-heading">Formular</h2>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Senden</button>
+        <h2 class="form-signin-heading">Nur einen Hinweis geben bei einer Eingabe</h2>
+        <label for="userinputs" class="sr-only">Eingabe</label>
+        <input type="text" id="userinputs" class="form-control userinputs" placeholder="Eingabe" required autofocus>
+
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
     </form>
 
 </div> <!-- /container -->
@@ -46,7 +44,7 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="js/form.js"></script>
 
 </body>
 </html>
